@@ -1,0 +1,5 @@
+dataset,source,kind,rows_written,train_jsonl,notes
+oral-images,GPrabhanjana/oral-images,oral_lesions,323,data/train/oral_images.jsonl,mirror of class-folder oral lesion images
+PAD-UFES-20,SalmaneExploring/pad-ufes-20,smartphone_skin,300,data/train/pad_ufes_20.jsonl,smartphone skin lesions with metadata
+FLUO-SC,Matheusbecali/FLUO-SC,smartphone_skin,2970,data/train/fluo_sc.jsonl,CLI/FLUO zip mirror from Mendeley-backed HF repo
+SCIN,google/scin,consumer_dermatology,300,data/train/scin.jsonl,consumer dermatology parquet with embedded image bytes

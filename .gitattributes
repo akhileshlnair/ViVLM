@@ -1,0 +1,5 @@
+data/raw/** filter=lfs diff=lfs merge=lfs -text
+data/train/**/*.jsonl text eol=lf
+data/manifests/**/*.csv text eol=lf
+data/manifests/**/*.md text eol=lf
+
