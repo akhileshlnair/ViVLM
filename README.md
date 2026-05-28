@@ -11,6 +11,7 @@ The repo focuses on high-signal, public datasets where images come from smartpho
 - FLUO-SC: skin-lesion images collected from smartphones
 - oral-images: oral lesion images
 - PMC-VQA: large medical VQA pairs from PubMed Central with reasoning traces
+- MIMIC-CXR-VQA: chest radiograph VQA with question-answer supervision
 
 ## Repo layout
 

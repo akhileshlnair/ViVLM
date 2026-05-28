@@ -9,6 +9,7 @@ We are prioritizing datasets that look like real user-captured photos of body pa
 - FLUO-SC: smartphone-captured skin lesions with paired fluorescence
 - oral-images: oral cavity lesions
 - PMC-VQA: large medical VQA with image-grounded reasoning traces
+- MIMIC-CXR-VQA: large chest radiograph VQA with concise question-answer targets
 
 ## Why these
 
