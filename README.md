@@ -10,6 +10,7 @@ The repo focuses on high-signal, public datasets where images come from smartpho
 - SCIN: consumer-contributed dermatology images with dermatologist labels
 - FLUO-SC: skin-lesion images collected from smartphones
 - oral-images: oral lesion images
+- PMC-VQA: large medical VQA pairs from PubMed Central with reasoning traces
 
 ## Repo layout
 

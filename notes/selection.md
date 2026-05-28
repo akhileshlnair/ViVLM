@@ -8,6 +8,7 @@ We are prioritizing datasets that look like real user-captured photos of body pa
 - SCIN: consumer dermatology images with clinical labels
 - FLUO-SC: smartphone-captured skin lesions with paired fluorescence
 - oral-images: oral cavity lesions
+- PMC-VQA: large medical VQA with image-grounded reasoning traces
 
 ## Why these
 

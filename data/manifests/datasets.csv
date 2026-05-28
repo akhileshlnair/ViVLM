@@ -3,3 +3,4 @@ PAD-UFES-20,SalmaneExploring/pad-ufes-20,train,smartphone_skin,Smartphone skin-l
 SCIN,google/scin,train,consumer_dermatology,Real-world consumer dermatology images with clinician labels
 FLUO-SC,Matheusbecali/FLUO-SC,train,smartphone_skin,Smartphone skin-lesion images with fluorescence companion data
 oral-images,GPrabhanjana/oral-images,train,oral_lesions,Small oral-lesion image set useful for mouth and oral cavity diagnosis
+PMC-VQA,OctoMed/PMC-VQA,train,medical_vqa,Medical VQA from PubMed Central with reasoning traces per case
