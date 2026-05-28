@@ -84,17 +84,21 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Mirror PMC-VQA into trainable JSONL + image files.")
     parser.add_argument("--max-shards", type=int, default=None)
     parser.add_argument("--max-cases", type=int, default=None)
+    parser.add_argument("--start-shard", type=int, default=1, help="1-based shard index to start from.")
+    parser.add_argument("--append", action="store_true", help="Append to existing outputs instead of wiping them.")
     args = parser.parse_args()
 
     ensure_dirs()
-    wipe_output()
+    if not args.append:
+        wipe_output()
 
     total_records = 0
     shard_list = shard_files()
+    shard_list = shard_list[args.start_shard - 1 :]
     if args.max_shards is not None:
         shard_list = shard_list[: args.max_shards]
 
-    for shard_idx, shard in enumerate(shard_list, start=1):
+    for shard_idx, shard in enumerate(shard_list, start=args.start_shard):
         url = hf_hub_url("OctoMed/PMC-VQA", shard, repo_type="dataset")
         ds = load_dataset("parquet", data_files=url, split="train", streaming=True)
         case_count = 0
@@ -149,4 +153,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
