@@ -6,3 +6,4 @@ SCIN,google/scin,consumer_dermatology,300,data/train/scin.jsonl,consumer dermato
 PMC-VQA,OctoMed/PMC-VQA,medical_vqa,48,data/train/pmc_vqa.jsonl,expanded from 1 parquet shards with 16 reasoning traces per case
 MIMIC-CXR-VQA-train,MiniMedMind/MIMIC-CXR-VQA,medical_chest_vqa,1038272,data/train/mimic_cxr_vqa.jsonl,259568 annotations expanded into 4 prompt variants per example
 PMC-VQA,OctoMed/PMC-VQA,medical_vqa,72608,data/train/pmc_vqa.jsonl,expanded from 1 parquet shards with 16 reasoning traces per case
+PMC-VQA,OctoMed/PMC-VQA,medical_vqa,72608,data/train/pmc_vqa.jsonl,expanded from 1 parquet shards with 16 reasoning traces per case
